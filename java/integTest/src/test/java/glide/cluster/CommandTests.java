@@ -940,6 +940,7 @@ public class CommandTests {
                 Arguments.of(
                         "sortStore",
                         "1.0.0",
+                        
                         clusterClient.sortStore("abc", "def", SortClusterOptions.builder().alpha().build())),
                 Arguments.of(
                         "geosearchstore",
